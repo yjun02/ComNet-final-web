@@ -4,6 +4,7 @@ import { FragmentationCalculator } from '../components/features/FragmentationCal
 import { CRCCalculator } from '../components/features/CRCCalculator';
 import { DayInLifeAnimation } from '../components/features/DayInLifeAnimation';
 import { InArticleAd } from '../components/ui/AdSense';
+import { SEO } from '../components/ui/SEO';
 
 export function ChapterPage() {
   const { id } = useParams();
@@ -22,6 +23,13 @@ export function ChapterPage() {
 // Chapter 4: Network Layer - Data Plane
 function Chapter4Content() {
   return (
+    <>
+      <SEO 
+        title="Chapter 4: Network Layer - Data Plane"
+        description="네트워크 계층의 데이터 평면에 대해 학습합니다. IP 프로토콜, 라우터 구조, IP Fragmentation, DHCP, NAT, IPv6 등의 핵심 개념을 다룹니다."
+        keywords="Network Layer, Data Plane, IP, 라우터, Fragmentation, DHCP, NAT, IPv6, 네트워크 계층, 데이터 평면"
+        url="https://comnet-final-web.vercel.app/chapter/4"
+      />
     <div className="space-y-8 pb-20">
       <header className="border-b border-gray-800 pb-6">
         <h1 className="text-4xl font-bold text-white mb-2">Chapter 4</h1>
@@ -145,12 +153,20 @@ function Chapter4Content() {
         </SubSection>
       </Section>
     </div>
+    </>
   );
 }
 
 // Chapter 5: Network Layer - Control Plane
 function Chapter5Content() {
   return (
+    <>
+      <SEO 
+        title="Chapter 5: Network Layer - Control Plane"
+        description="네트워크 계층의 제어 평면을 학습합니다. 라우팅 알고리즘(Dijkstra, Bellman-Ford), OSPF, BGP, SDN 등 라우팅 프로토콜의 핵심 개념을 다룹니다."
+        keywords="Network Layer, Control Plane, Routing, 라우팅, Dijkstra, Bellman-Ford, OSPF, BGP, SDN, 제어 평면"
+        url="https://comnet-final-web.vercel.app/chapter/5"
+      />
     <div className="space-y-8 pb-20">
       <header className="border-b border-gray-800 pb-6">
         <h1 className="text-4xl font-bold text-white mb-2">Chapter 5</h1>
@@ -243,12 +259,20 @@ function Chapter5Content() {
         </div>
       </Section>
     </div>
+    </>
   );
 }
 
 // Chapter 6: Link Layer & LANs
 function Chapter6Content() {
   return (
+    <>
+      <SEO 
+        title="Chapter 6: Link Layer & LANs"
+        description="링크 계층과 LAN에 대해 학습합니다. CRC 에러 검출, CSMA/CD, MAC 주소, Ethernet, Switch, ARP 등의 핵심 개념을 다룹니다."
+        keywords="Link Layer, LAN, CRC, CSMA/CD, MAC Address, Ethernet, Switch, ARP, 링크 계층, 이더넷"
+        url="https://comnet-final-web.vercel.app/chapter/6"
+      />
     <div className="space-y-8 pb-20">
       <header className="border-b border-gray-800 pb-6">
         <h1 className="text-4xl font-bold text-white mb-2">Chapter 6</h1>
@@ -345,6 +369,7 @@ function Chapter6Content() {
         <DayInLifeAnimation />
       </Section>
     </div>
+    </>
   );
 }
 
