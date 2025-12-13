@@ -41,7 +41,7 @@ export function DayInLifeAnimation() {
                  scale: isCurrent ? 1.1 : 1,
                  color: isActive ? '#38bdf8' : isCurrent ? '#f472b6' : '#64748b'
                }}
-               className="flex flex-col items-center bg-navy p-4 rounded-lg border border-slate-800 z-10 w-32"
+               className="flex flex-col items-center bg-navy p-4 rounded-lg border border-slate-800 z-10 w-32 relative"
              >
                <step.icon className="w-8 h-8 mb-2" />
                <div className="font-bold text-sm text-center">{step.title}</div>
