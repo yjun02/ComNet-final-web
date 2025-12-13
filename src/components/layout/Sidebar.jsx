@@ -20,7 +20,7 @@ export function Sidebar() {
         <p className="text-xs text-gray-500 mt-1">Computer Networks</p>
       </div>
       
-      <nav className="flex-1 overflow-y-auto overflow-x-hidden py-6 px-3 space-y-1">
+      <nav className="flex-1 overflow-y-auto overflow-x-hidden scrollbar-hide py-6 px-3 space-y-1">
         {chapters.map((chapter) => (
           <NavLink
             key={chapter.id}
