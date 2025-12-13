@@ -38,13 +38,13 @@ export function AdSense({
 }
 
 /**
- * Sidebar Display Ad - Vertical banner for sidebar
+ * Sidebar Multiplex Ad - Vertical multiplex ad for sidebar
  */
 export function SidebarAd() {
   return (
     <AdSense
-      adSlot="9391054607"
-      adFormat="auto"
+      adSlot="8013575517"
+      adFormat="autorelaxed"
       className="my-4"
     />
   );
