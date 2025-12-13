@@ -3,6 +3,7 @@ import { useParams, Navigate } from 'react-router-dom';
 import { FragmentationCalculator } from '../components/features/FragmentationCalculator';
 import { CRCCalculator } from '../components/features/CRCCalculator';
 import { DayInLifeAnimation } from '../components/features/DayInLifeAnimation';
+import { InArticleAd } from '../components/ui/AdSense';
 
 export function ChapterPage() {
   const { id } = useParams();
@@ -59,6 +60,8 @@ function Chapter4Content() {
         </SubSection>
       </Section>
 
+      <InArticleAd />
+
       <Section id="router-structure" title="라우터 내부 구조">
         <div className="grid md:grid-cols-3 gap-6">
           <Card title="입력 포트" icon="📥">
@@ -85,6 +88,8 @@ function Chapter4Content() {
           </Card>
         </div>
       </Section>
+
+      <InArticleAd />
 
       <Section id="ip-protocol" title="IP: Internet Protocol">
         <SubSection id="fragmentation" title="IP Fragmentation (단편화)">
@@ -184,6 +189,8 @@ function Chapter5Content() {
         </div>
       </Section>
 
+      <InArticleAd />
+
       <Section id="as-routing" title="Autonomous Systems (AS) 간 라우팅">
         <SubSection id="intra-as" title="Intra-AS Routing (내부)">
           <InfoBox title="OSPF (Open Shortest Path First)">
@@ -215,6 +222,8 @@ function Chapter5Content() {
           </div>
         </SubSection>
       </Section>
+
+      <InArticleAd />
 
       <Section id="sdn" title="SDN 제어 평면">
         <div className="space-y-4">
@@ -260,6 +269,8 @@ function Chapter6Content() {
         </div>
       </Section>
 
+      <InArticleAd />
+
       <Section id="error-detection" title="에러 탐지 및 정정">
         <SubSection id="crc" title="CRC (Cyclic Redundancy Check)">
           <InfoBox>
@@ -274,6 +285,8 @@ function Chapter6Content() {
           <CRCCalculator />
         </SubSection>
       </Section>
+
+      <InArticleAd />
 
       <Section id="mac-protocols" title="다중 접속 프로토콜">
         <p className="text-gray-300 mb-6">

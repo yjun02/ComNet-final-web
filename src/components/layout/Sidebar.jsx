@@ -2,6 +2,7 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 import { BookOpen, Network, Share2 } from 'lucide-react';
 import { cn } from '../../utils/cn';
+import { SidebarAd } from '../ui/AdSense';
 
 const chapters = [
   { id: '4', title: 'Chapter 4', subtitle: 'Network Layer: Data Plane', icon: Network },
@@ -38,6 +39,11 @@ export function Sidebar() {
             </div>
           </NavLink>
         ))}
+        
+        {/* Google AdSense - Display Banner */}
+        <div className="pt-4">
+          <SidebarAd />
+        </div>
       </nav>
 
       <div className="p-4 border-t border-gray-800">
