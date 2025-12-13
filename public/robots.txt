@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://comnet-final-web.vercel.app/sitemap.xml
