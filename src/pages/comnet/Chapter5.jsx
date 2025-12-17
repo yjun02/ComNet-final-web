@@ -143,7 +143,7 @@ export default function Chapter5() {
               </h3>
               <p className="text-gray-400 text-sm">AS <strong>내부</strong> 라우팅. 성능(Performance)이 최우선입니다.</p>
               
-              <div className="bg-gray-900 p-5 rounded-lg border border-gray-800 h-full">
+              <div className="bg-gray-900 p-5 rounded-lg border border-gray-800">
                  <div className="mb-4">
                     <strong className="text-white text-lg">OSPF</strong>
                     <div className="text-xs text-gray-500">Open Shortest Path First</div>
@@ -163,7 +163,7 @@ export default function Chapter5() {
               </h3>
               <p className="text-gray-400 text-sm">AS <strong>사이(외부)</strong> 라우팅. 정책(Policy)이 최우선입니다.</p>
 
-              <div className="bg-gray-900 p-5 rounded-lg border border-gray-800 h-full">
+              <div className="bg-gray-900 p-5 rounded-lg border border-gray-800">
                  <div className="mb-4">
                     <strong className="text-white text-lg">BGP</strong>
                     <div className="text-xs text-gray-500">Border Gateway Protocol</div>
