@@ -14,10 +14,12 @@ export default function Chapter5() {
         url="https://comnet-final-web.vercel.app/chapter/5"
       />
     <div className="space-y-8">
-      <header className="border-b border-gray-800 pb-6">
-        <div className="text-blue-500 font-mono text-sm mb-2">Network Layer: Control Plane</div>
-        <h1 className="text-4xl font-bold text-white mb-4">Chapter 5. 제어 평면</h1>
-        <p className="text-gray-400 text-lg leading-relaxed">
+      <header className="border-b border-gray-800 pb-8">
+        <div className="flex items-center gap-2 text-emerald-500 font-mono text-sm mb-4">
+             <span className="px-2 py-1 bg-emerald-500/10 rounded">Chapter 5 : Network Layer - Control Plane</span>
+        </div>
+        <h1 className="text-5xl font-bold text-white mb-6">Chapter 5. 제어 평면</h1>
+        <p className="text-gray-400 text-xl leading-relaxed max-w-3xl">
           패킷의 이동 경로(Route)를 결정하는 네트워크의 <span className="text-white font-semibold">두뇌(Brain)</span> 역할을 하는 Control Plane을 다룹니다.
           전통적인 라우팅 알고리즘(OSPF, BGP)부터 현대적인 SDN 아키텍처까지 학습합니다.
         </p>

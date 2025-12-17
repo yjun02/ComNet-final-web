@@ -88,7 +88,7 @@ export function TOC() {
   if (headings.length === 0) return null;
 
   return (
-    <aside className="hidden xl:block fixed right-0 top-0 h-screen w-64 p-6 overflow-y-auto z-30">
+    <aside className="hidden xl:block sticky top-0 h-screen w-64 p-6 overflow-y-auto z-30 shrink-0">
       <h4 className="text-xs font-bold text-gray-500 uppercase tracking-wider mb-4">
         On This Page
       </h4>

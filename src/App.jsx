@@ -1,16 +1,50 @@
-import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
+import { BrowserRouter, Routes, Route, Navigate, Outlet, useParams } from 'react-router-dom';
 import { Layout } from './components/layout/Layout';
-import { ChapterPage } from './pages/ChapterPage';
+import { ComNetChapterPage } from './pages/ComNetChapterPage';
+import { MlChapterPage } from './pages/MlChapterPage';
+import Chapter7 from './pages/ml/Chapter7';
+import Chapter8 from './pages/ml/Chapter8';
+import Chapter9 from './pages/ml/Chapter9';
+import Chapter10 from './pages/ml/Chapter10';
+import { Landing } from './pages/Landing';
+import { PreparingPage } from './pages/PreparingPage';
+import ComNetIntro from './pages/comnet/Intro';
+import MlIntro from './pages/ml/Intro';
+
+function AppLayout() {
+  return (
+    <Layout>
+      <Outlet />
+    </Layout>
+  );
+}
+
+function LegacyRedirect() {
+  const { id } = useParams();
+  return <Navigate to={`/comnet/chapter/${id}`} replace />;
+}
 
 function App() {
   return (
     <BrowserRouter>
-      <Layout>
-        <Routes>
-          <Route path="/" element={<Navigate to="/chapter/4" replace />} />
-          <Route path="/chapter/:id" element={<ChapterPage />} />
-        </Routes>
-      </Layout>
+      <Routes>
+        <Route path="/" element={<Landing />} />
+        <Route path="/preparing" element={<PreparingPage />} />
+        
+        {/* Main Content Layout with Sidebar */}
+        <Route element={<AppLayout />}>
+          <Route path="/comnet/intro" element={<ComNetIntro />} />
+          <Route path="/comnet/chapter/:id" element={<ComNetChapterPage />} />
+          <Route path="/ml/intro" element={<MlIntro />} />
+          <Route path="/ml/chapter/:id" element={<MlChapterPage />} />
+        </Route>
+
+        {/* Legacy Support */}
+        <Route path="/chapter/:id" element={<LegacyRedirect />} />
+        
+        {/* Fallback */}
+        <Route path="*" element={<Navigate to="/" replace />} />
+      </Routes>
     </BrowserRouter>
   )
 }

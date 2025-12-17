@@ -1,10 +1,10 @@
 import React from 'react';
 import { useParams, Navigate } from 'react-router-dom';
-import Chapter4 from './chapters/Chapter4';
-import Chapter5 from './chapters/Chapter5';
-import Chapter6 from './chapters/Chapter6';
+import Chapter4 from './comnet/Chapter4';
+import Chapter5 from './comnet/Chapter5';
+import Chapter6 from './comnet/Chapter6';
 
-export function ChapterPage() {
+export function ComNetChapterPage() {
   const { id } = useParams();
 
   if (id === '4') {
@@ -15,5 +15,5 @@ export function ChapterPage() {
     return <Chapter6 />;
   }
   
-  return <Navigate to="/chapter/4" />;
+  return <Navigate to="/comnet/intro" />;
 }

@@ -15,10 +15,12 @@ export default function Chapter4() {
         url="https://comnet-final-web.vercel.app/chapter/4"
       />
     <div className="space-y-8">
-      <header className="border-b border-gray-800 pb-6">
-        <div className="text-emerald-500 font-mono text-sm mb-2">Network Layer: Data Plane</div>
-        <h1 className="text-4xl font-bold text-white mb-4">Chapter 4. 데이터 평면</h1>
-        <p className="text-gray-400 text-lg leading-relaxed">
+      <header className="border-b border-gray-800 pb-8">
+        <div className="flex items-center gap-2 text-emerald-500 font-mono text-sm mb-4">
+             <span className="px-2 py-1 bg-emerald-500/10 rounded">Chapter 4 : Network Layer - Data Plane</span>
+        </div>
+        <h1 className="text-5xl font-bold text-white mb-6">Chapter 4. 데이터 평면</h1>
+        <p className="text-gray-400 text-xl leading-relaxed max-w-3xl">
           데이터를 출발지에서 목적지까지 안전하게 전달하는 네트워크 계층의 핵심 역할을 학습합니다. 
           그 중에서도 실제 패킷을 라우터 내부에서 이동시키는 <span className="text-white font-semibold">Data Plane (데이터 평면)</span>을 집중적으로 다룹니다.
         </p>
