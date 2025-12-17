@@ -42,7 +42,7 @@ export function Sidebar({ isOpen, onToggle }) {
     >
       <div className={cn("flex items-center border-b border-gray-800 h-[89px]", isOpen ? "px-6 justify-between" : "justify-center p-0")}>
         {isOpen && (
-           <div className="overflow-hidden whitespace-nowrap animate-in fade-in slide-in-from-left-4 duration-300">
+           <div className="overflow-hidden whitespace-nowrap">
              <Link to="/" className="text-xl font-bold text-white flex items-center gap-2 hover:opacity-80 transition-opacity">
                <span className={titleColor}>{title.split(' ')[0]}</span> {title.split(' ')[1]}
              </Link>
@@ -94,7 +94,7 @@ export function Sidebar({ isOpen, onToggle }) {
           >
             <chapter.icon className="w-5 h-5 shrink-0" />
             {isOpen && (
-               <div className="overflow-hidden whitespace-nowrap animate-in fade-in slide-in-from-left-2 duration-300">
+               <div className="overflow-hidden whitespace-nowrap">
                  <div className="font-medium text-sm">{chapter.title}</div>
                  <div className="text-xs opacity-70 truncate w-48">{chapter.subtitle}</div>
                </div>
@@ -105,7 +105,7 @@ export function Sidebar({ isOpen, onToggle }) {
         
       {/* Ads & Footer - Hide when closed */}
       {isOpen && (
-        <div className="flex flex-col overflow-hidden animate-in fade-in duration-500 delay-150 shrink-0">
+        <div className="flex flex-col overflow-hidden shrink-0">
           <div className="px-1 py-2 w-full relative">
             <SidebarAd />
           </div>
