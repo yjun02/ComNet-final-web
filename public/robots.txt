@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://comnet-final-web.vercel.app/sitemap.xml
+Sitemap: https://sj-wiki.vercel.app/sitemap.xml

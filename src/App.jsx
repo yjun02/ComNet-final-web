@@ -10,6 +10,8 @@ import { Landing } from './pages/Landing';
 import { PreparingPage } from './pages/PreparingPage';
 import ComNetIntro from './pages/comnet/Intro';
 import MlIntro from './pages/ml/Intro';
+import About from './pages/legal/About';
+import PrivacyPolicy from './pages/legal/PrivacyPolicy';
 
 function AppLayout() {
   return (
@@ -37,6 +39,8 @@ function App() {
           <Route path="/comnet/chapter/:id" element={<ComNetChapterPage />} />
           <Route path="/ml/intro" element={<MlIntro />} />
           <Route path="/ml/chapter/:id" element={<MlChapterPage />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/privacy" element={<PrivacyPolicy />} />
         </Route>
 
         {/* Legacy Support */}

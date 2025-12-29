@@ -24,14 +24,26 @@ const mlChapters = [
 
 export function Sidebar({ isOpen, onToggle }) {
   const location = useLocation();
-  const isMl = location.pathname.startsWith('/ml');
+  
+  // Normalize pathname for consistent checks
+  const normalizedPath = location.pathname.endsWith('/') && location.pathname.length > 1
+    ? location.pathname.slice(0, -1)
+    : location.pathname;
+
+  const isMl = normalizedPath.startsWith('/ml');
+  const isComnet = normalizedPath.startsWith('/comnet');
   
   // 현재 모드에 따른 챕터 목록 선택
-  const currentChapters = isMl ? mlChapters : comnetChapters;
-  const basePath = isMl ? '/ml' : '/comnet'; // Changed base path to verify later
+  const currentChapters = isMl ? mlChapters : (isComnet ? comnetChapters : []);
+  const basePath = isMl ? '/ml' : (isComnet ? '/comnet' : '');
   const title = '슬기로운 전전위키';
-  const subtitle = isMl ? '머신러닝 핵심 요약' : '컴퓨터 네트워크 기말고사 대비';
-  const titleColor = isMl ? 'text-blue-500' : 'text-emerald-500';
+  
+  let subtitle = '';
+  if (isMl) subtitle = '머신러닝 핵심 요약';
+  else if (isComnet) subtitle = '컴퓨터 네트워크 기말고사 대비';
+  else subtitle = '슬기로운 전전생활';
+
+  const titleColor = isMl ? 'text-blue-500' : (isComnet ? 'text-emerald-500' : 'text-purple-500');
 
   return (
     <aside 

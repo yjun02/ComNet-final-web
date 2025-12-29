@@ -14,7 +14,7 @@ export default function Chapter10() {
         title="Chapter 10: Neural Networks & CNN"
         description="인공신경망(MLP)의 구조부터 CNN, 역전파, 최적화 기법까지 딥러닝의 필수 이론을 완벽하게 정리합니다."
         keywords="Ordinary Least Squares, Cross Entropy, Backpropagation, CNN, Pooling, Dropout, SGD, Adam"
-        url="https://comnet-final-web.vercel.app/ml/chapter/neural_network"
+        url="https://sj-wiki.vercel.app/ml/chapter/10"
       />
       
       <div className="space-y-12">

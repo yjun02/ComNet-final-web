@@ -14,7 +14,7 @@ export default function Chapter9() {
         title="Chapter 9: Linear Classification"
         description="이진 분류와 다중 클래스 분류를 위한 선형 모델들을 학습합니다. LDA의 투영 개념부터 로지스틱 회귀의 확률적 접근(MLE)까지 다룹니다."
         keywords="Linear Classification, Logistic Regression, LDA, Sigmoid, Cross Entropy, Decision Boundary, Softmax"
-        url="https://comnet-final-web.vercel.app/ml/chapter/linear_classification"
+        url="https://sj-wiki.vercel.app/ml/chapter/9"
       />
       
       <div className="space-y-12">

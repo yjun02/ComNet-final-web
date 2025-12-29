@@ -13,7 +13,7 @@ export default function Chapter6() {
         title="Chapter 6: Link Layer & LANs"
         description="링크 계층과 LAN의 원리를 탐구합니다. MAC 주소, ARP, Ethernet 프레임 구조, Switch 동작 원리, CSMA/CD 등 핵심 개념 완벽 정리."
         keywords="Link Layer, LAN, Ethernet, MAC Address, ARP, Switch, CSMA/CD, CRC, Error Detection, Collision"
-        url="https://comnet-final-web.vercel.app/chapter/6"
+        url="https://sj-wiki.vercel.app/comnet/chapter/6"
       />
     <div className="space-y-8">
       <header className="border-b border-gray-800 pb-8">

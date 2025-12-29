@@ -14,7 +14,7 @@ export default function Chapter7() {
         title="Chapter 7: Clustering"
         description="비지도 학습의 핵심인 계층적 클러스터링과 K-Means를 심도 있게 다룹니다. 수학적 최적화 목표(SSE), 덴드로그램, 링크 방식을 상세히 학습합니다."
         keywords="Clustering, Hierarchical, K-Means, SSE, Silhouette Score, Dendrogram, Linkage, Unsupervised Learning"
-        url="https://comnet-final-web.vercel.app/ml/chapter/clustering"
+        url="https://sj-wiki.vercel.app/ml/chapter/7"
       />
       
       <div className="space-y-12">

@@ -11,7 +11,7 @@ export default function Chapter5() {
         title="Chapter 5: Network Layer - Control Plane"
         description="네트워크 계층의 제어 평면(Control Plane)을 심층 분석합니다. 라우팅 알고리즘(LS vs DV), OSPF, BGP, SDN, ICMP 등 핵심 주제 완벽 정리."
         keywords="Network Layer, Control Plane, Routing Algorithms, Dijkstra, Bellman-Ford, OSPF, BGP, SDN, ICMP, SNMP"
-        url="https://comnet-final-web.vercel.app/chapter/5"
+        url="https://sj-wiki.vercel.app/comnet/chapter/5"
       />
     <div className="space-y-8">
       <header className="border-b border-gray-800 pb-8">

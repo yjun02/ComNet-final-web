@@ -10,7 +10,7 @@ export default function ComNetIntro() {
         title="Computer Network: Course Overview"
         description="컴퓨터 네트워크 과목 소개, 강의 계획, 평가 기준 및 참조 자료."
         keywords="Computer Network, Syllabus, Yunmin Go, Grading Policy, Kurose"
-        url="https://comnet-final-web.vercel.app/comnet/intro"
+        url="https://sj-wiki.vercel.app/comnet/intro"
       />
       
       <div className="space-y-12">

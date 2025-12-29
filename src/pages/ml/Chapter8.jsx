@@ -14,7 +14,7 @@ export default function Chapter8() {
         title="Chapter 8: Linear Regression"
         description="머신러닝의 가장 기초가 되는 선형 회귀 모델을 학습합니다. 최소 제곱법(Least Squares), 경사 하강법(Gradient Descent), 그리고 정규화(Regularization)까지 심도 있게 다룹니다."
         keywords="Linear Regression, Gradient Descent, Normal Equation, Ridge, Lasso, MSE, R-squared"
-        url="https://comnet-final-web.vercel.app/ml/chapter/linear_regression"
+        url="https://sj-wiki.vercel.app/ml/chapter/8"
       />
       
       <div className="space-y-12">

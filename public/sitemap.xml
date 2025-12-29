@@ -1,27 +1,78 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://comnet-final-web.vercel.app/</loc>
-    <lastmod>2025-12-14</lastmod>
+    <loc>https://sj-wiki.vercel.app/</loc>
+    <lastmod>2025-12-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
+  <!-- ComNet Section -->
   <url>
-    <loc>https://comnet-final-web.vercel.app/chapter/4</loc>
-    <lastmod>2025-12-14</lastmod>
+    <loc>https://sj-wiki.vercel.app/comnet/intro</loc>
+    <lastmod>2025-12-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://sj-wiki.vercel.app/comnet/chapter/4</loc>
+    <lastmod>2025-12-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://comnet-final-web.vercel.app/chapter/5</loc>
-    <lastmod>2025-12-14</lastmod>
+    <loc>https://sj-wiki.vercel.app/comnet/chapter/5</loc>
+    <lastmod>2025-12-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://comnet-final-web.vercel.app/chapter/6</loc>
-    <lastmod>2025-12-14</lastmod>
+    <loc>https://sj-wiki.vercel.app/comnet/chapter/6</loc>
+    <lastmod>2025-12-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
+  </url>
+  <!-- ML Section -->
+  <url>
+    <loc>https://sj-wiki.vercel.app/ml/intro</loc>
+    <lastmod>2025-12-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://sj-wiki.vercel.app/ml/chapter/7</loc>
+    <lastmod>2025-12-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://sj-wiki.vercel.app/ml/chapter/8</loc>
+    <lastmod>2025-12-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://sj-wiki.vercel.app/ml/chapter/9</loc>
+    <lastmod>2025-12-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://sj-wiki.vercel.app/ml/chapter/10</loc>
+    <lastmod>2025-12-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <!-- Legal & About Info -->
+  <url>
+    <loc>https://sj-wiki.vercel.app/about</loc>
+    <lastmod>2025-12-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://sj-wiki.vercel.app/privacy</loc>
+    <lastmod>2025-12-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.3</priority>
   </url>
 </urlset>

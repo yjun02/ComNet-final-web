@@ -49,22 +49,13 @@ export function Landing() {
             delay={0.2}
           />
           <SubjectCard 
-            to="/preparing"
-            title="Coming Soon"
-            subtitle="추후 공개 예정"
-            description={<>새로운 과목이 곧 추가될 예정입니다.<br/>기대해 주세요!</>}
-            icon={Construction}
-            color="amber"
-            delay={0.3}
-          />
-          <SubjectCard 
-            to="/preparing"
-            title="Coming Soon"
-            subtitle="추후 공개 예정"
-            description={<>새로운 과목이 곧 추가될 예정입니다.<br/>기대해 주세요!</>}
+            to="/about"
+            title="Our Story"
+            subtitle="소개 및 비전"
+            description={<>슬기로운 전전위키의 제작 배경과<br/>우리가 꿈꾸는 교육의 지향점을 소개합니다.</>}
             icon={GraduationCap}
             color="purple"
-            delay={0.4}
+            delay={0.3}
           />
         </div>
       </div>

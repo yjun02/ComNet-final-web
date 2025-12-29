@@ -10,7 +10,7 @@ export default function MlIntro() {
         title="Machine Learning: Course Overview"
         description="머신러닝 과목 소개, 강의 계획, 평가 기준 및 참조 자료."
         keywords="Machine Learning, Syllabus, Charmgil Hong, Grading Policy, Probabilistic ML"
-        url="https://comnet-final-web.vercel.app/ml/intro"
+        url="https://sj-wiki.vercel.app/ml/intro"
       />
       
       <div className="space-y-12">

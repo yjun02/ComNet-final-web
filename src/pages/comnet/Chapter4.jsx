@@ -12,7 +12,7 @@ export default function Chapter4() {
         title="Chapter 4: Network Layer - Data Plane"
         description="네트워크 계층의 데이터 평면에 대해 학습합니다. Forwarding vs Routing, 라우터 내부 구조, 패킷 스케줄링, DHCP, NAT, IPv6, SDN 등 핵심 개념 완벽 정리."
         keywords="Network Layer, Data Plane, Forwarding, Routing, Router Architecture, HOL Blocking, Scheduling, DHCP, NAT, IPv6, SDN"
-        url="https://comnet-final-web.vercel.app/chapter/4"
+        url="https://sj-wiki.vercel.app/comnet/chapter/4"
       />
     <div className="space-y-8">
       <header className="border-b border-gray-800 pb-8">
